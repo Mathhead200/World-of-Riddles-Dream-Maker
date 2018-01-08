@@ -1,0 +1,29 @@
+// DM Environment file for World of Riddles.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "pics"
+#define FILE_DIR "pics/doors"
+#define FILE_DIR "pics/motes"
+#define FILE_DIR "pics/stairs"
+#define FILE_DIR "sounds"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "level_1.dm"
+#include "level_3.dm"
+#include "main.dm"
+#include "obj.dm"
+#include "turf.dm"
+#include "world.dmm"
+#include "backup\world.dmm"
+// END_INCLUDE
+
