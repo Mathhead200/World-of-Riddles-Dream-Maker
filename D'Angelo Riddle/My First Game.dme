@@ -1,0 +1,23 @@
+// DM Environment file for My First Game.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "Pics"
+#define FILE_DIR "Pics/Doors"
+#define FILE_DIR "Pics/Notes"
+#define FILE_DIR "Pics/Stairs"
+#define FILE_DIR "Sounds"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "Code.dm"
+#include "Map.dmp"
+// END_INCLUDE
+
